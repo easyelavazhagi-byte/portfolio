@@ -1,0 +1,28 @@
+{
+  "name": "elavazhagi-portfolio",
+  "version": "1.0.0",
+  "description": "Full-Stack Personal Portfolio for Elavazhagi - Built with React, Node.js, Express, and SQLite",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "backend": "node backend/server.js",
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "seed": "node backend/database.js",
+    "test": "node test_server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "full-stack",
+    "react",
+    "nodejs",
+    "express",
+    "sqlite"
+  ],
+  "author": "Elavazhagi",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0"
+  }
+}
